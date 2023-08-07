@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        h3{color: blue;}
+        table{background-color: beige;}
+        body{text-align: center;}
+        table{margin-left: 40em;}
+        h4{color:blueviolet}
+    </style>
+    <title>Model Reports</title>
+</head>
+<body>
+    <h3>Decision Tree Classification Model Results</h3>
+    <h6>Model Accuracy:  0.807692307692307</h6>
+    <h6>Confusion Matrix: <br>
+        [[13  2] <br>
+        [ 3  8]] </h6>
+    <h6>Classification Report:</h6>
+
+    <table>
+        <thead>
+            <tr>
+                <td></td>
+                <td>precision</td>
+                <td>recall</td>
+                <td>f1-score</td>
+                <td>support</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>0</td>
+                <td>0.81</td>
+                <td>0.87</td>
+                <td>0.84</td>
+                <td>15</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>0.80</td>
+                <td>0.73</td>
+                <td>0.76</td>
+                <td>11</td>
+            </tr>
+            <tr>
+                <td>accuracy</td>
+                <td></td>
+                <td></td>
+                <td>0.81</td>
+                <td>26</td>
+            </tr>
+            <tr>
+                <td>macro avg</td>
+                <td>0.81</td>
+                <td>0.80</td>
+                <td>0.80</td>
+                <td>26</td>
+            </tr>
+            <tr>
+                <td>weighted avg</td>
+                <td>0.81</td>
+                <td>0.81</td>
+                <td>0.81</td>
+                <td>26</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br>
+
+    <h3>Logistic Regression Model Results</h3>
+    <h6>Model Accuracy:  0.8076923076923077</h6>
+    <h6>Confusion Matrix: <br>
+        [[ 5  5] <br>
+        [ 0 16]] </h6>
+    <h6>Classification Report:</h6>
+    <table>
+        <thead>
+            <tr>
+                <td></td>
+                <td>precision</td>
+                <td>recall</td>
+                <td>f1-score</td>
+                <td>support</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>0</td>
+                <td>1.00</td>
+                <td>0.50</td>
+                <td>0.67</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>0.76</td>
+                <td>1.00</td>
+                <td>0.86</td>
+                <td>16</td>
+            </tr>
+            <tr>
+                <td>accuracy</td>
+                <td></td>
+                <td></td>
+                <td>0.81</td>
+                <td>26</td>
+            </tr>
+            <tr>
+                <td>macro avg</td>
+                <td>0.88</td>
+                <td>0.75</td>
+                <td>0.77</td>
+                <td>26</td>
+            </tr>
+            <tr>
+                <td>weighted avg</td>
+                <td>0.85</td>
+                <td>0.81</td>
+                <td>0.79</td>
+                <td>26</td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <br>
+
+    <h3>K-Nearest Neighbours Model Results</h3>
+    <h6>Model Accuracy:  0.8421052631578947</h6>
+    <h6>Confusion Matrix: <br>
+        [[ 5  2] <br>
+        [ 1 11]]
+    <h6>Classification Report:</h6>
+    <table>
+        <thead>
+            <tr>
+                <td></td>
+                <td>precision</td>
+                <td>recall</td>
+                <td>f1-score</td>
+                <td>support</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>0</td>
+                <td>0.83</td>
+                <td>0.71</td>
+                <td>0.77</td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>0.85</td>
+                <td>0.92</td>
+                <td>0.88</td>
+                <td>12</td>
+            </tr>
+            <tr>
+                <td>accuracy</td>
+                <td></td>
+                <td></td>
+                <td>0.84</td>
+                <td>19</td>
+            </tr>
+            <tr>
+                <td>macro avg</td>
+                <td>0.84</td>
+                <td>0.82</td>
+                <td>0.82</td>
+                <td>19</td>
+            </tr>
+            <tr>
+                <td>weighted avg</td>
+                <td>0.84</td>
+                <td>0.84</td>
+                <td>0.84</td>
+                <td>19</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+
+    <h3>Random Forest Model Results</h3>
+    <h6>Model Accuracy: 0.8421052631578947</h6>
+    <h6>Confusion Matrix: <br>
+        [[ 5  3] <br>
+        [ 0 11]]
+    <h6>Classification Report:</h6>
+    <table>
+        <thead>
+            <tr>
+                <td></td>
+                <td>precision</td>
+                <td>recall</td>
+                <td>f1-score</td>
+                <td>support</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>0</td>
+                <td>1.00</td>
+                <td>0.62</td>
+                <td>0.77</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>0.79</td>
+                <td>1.00</td>
+                <td>0.88</td>
+                <td>11</td>
+            </tr>
+            <tr>
+                <td>accuracy</td>
+                <td></td>
+                <td></td>
+                <td>0.84</td>
+                <td>19</td>
+            </tr>
+            <tr>
+                <td>macro avg</td>
+                <td>0.89</td>
+                <td>0.81</td>
+                <td>0.82</td>
+                <td>19</td>
+            </tr>
+            <tr>
+                <td>weighted avg</td>
+                <td>0.88</td>
+                <td>0.84</td>
+                <td>0.83</td>
+                <td>19</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <h3>Support Vector Machine Model Results</h3>
+    <h6>Model Accuracy: 0.8421052631578947</h6>
+    <h6>Confusion Matrix: <br>
+        [[7 3] <br>
+        [0 9]]
+    <h6>Classification Report:</h6>
+    <table>
+        <thead>
+            <tr>
+                <td></td>
+                <td>precision</td>
+                <td>recall</td>
+                <td>f1-score</td>
+                <td>support</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>0</td>
+                <td>1.00</td>
+                <td>0.70</td>
+                <td>0.82</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>0.75</td>
+                <td>1.00</td>
+                <td>0.86</td>
+                <td>9</td>
+            </tr>
+            <tr>
+                <td>accuracy</td>
+                <td></td>
+                <td></td>
+                <td>0.84</td>
+                <td>19</td>
+            </tr>
+            <tr>
+                <td>macro avg</td>
+                <td>0.88</td>
+                <td>0.85</td>
+                <td>0.84</td>
+                <td>19</td>
+            </tr>
+            <tr>
+                <td>weighted avg</td>
+                <td>0.88</td>
+                <td>0.84</td>
+                <td>0.84</td>
+                <td>19</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <h4>K-Nearest Neighbor model followed by Decision Tree model appear to be most suitable models for this business case</h4>
+</body>
+</html>
